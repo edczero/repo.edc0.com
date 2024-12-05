@@ -1,0 +1,39 @@
+# Bundler cache
+.bundle
+vendor
+Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache
+.jekyll-metadata
+_site
+
+#Hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Misc
+.DS_Store
+.ruby-version
+Icon?
+
+node_modules
+public
+
+docs/.next
+docs/out

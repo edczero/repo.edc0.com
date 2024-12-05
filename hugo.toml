@@ -1,0 +1,44 @@
+baseURL = ""
+languageCode = "en-us"
+title = "EDC0"
+#theme = "github-style-plus"
+#googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "EDC0"
+  description = "Embrace who you are, and go with the flow🔹"
+  github = "edczero"
+  enableGithubFollowers = true # Set to true to show your real github followers(params.github is required)
+  twitter = "edczero"
+  #linkedin = "kurt-liao-07360b17b"
+  email = "admin@edc0.com"
+  #stackoverflow="10389571"
+  lastmod = true
+  #userStatusEmoji = "😉"
+  favicon = "/images/edc0.jpg"
+  avatar = "/images/edc0.jpg"
+  location = "London, UK"
+  enableGitalk = false
+  rss = true
+  enableLocalSearch = true # Set to true if you want to have keyword search locally(params.rss true is required)
+  sponsorLink = "Your external sponsor link; For me, I use buymeacoffee link" # Set the link if you want to have a sponsor button and let audience know the your donation link
+  customStyleFile = "brands.css"
+  #gtmId = "your gtm id"
+  
+  [[params.links]]
+    title = "EDC0"
+    href = "https://github.com/edczero"
+  [[params.links]]
+    title = "MAverickMAc"
+    href = "https://github.com/maverickmac/maverickmac.github.io"
+    icon = "/images/sparrow2.png"
+
+  [[params.customOrgs]]
+    link = "https://github.com/objectstack"
+    img = "/images/objectstack-logo.png" #Put your assets in static folder
+    name = "ObjectStack"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
